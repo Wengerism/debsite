@@ -1,0 +1,86 @@
+@media screen and (max-width: 800px) {
+	.burger {
+		visibility: visible;
+	}
+
+	.nav-list {
+		background: #444650;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100vw;
+		flex-direction: column;
+		transform: translateX(-100%);
+		transition: transform 0.95s ease-in-out;
+		z-index: 8;
+		justify-content: flex-start;
+		padding-top: 12vh;
+	}
+
+	// LOGO
+	.logo {
+		padding-top: 0;
+		padding-bottom: 2rem;
+		li:nth-child(2) {
+			font-size: 0.7rem;
+		}
+		a {
+			text-decoration: none;
+			color: #ccc;
+		}
+	}
+
+	.deb-logo,
+	.cooper-logo {
+		font-size: 2rem;
+	}
+
+	.deb-logo {
+		color: #fff;
+		font-weight: 100;
+	}
+	.cooper-logo {
+		color: grey;
+		font-weight: 300;
+	}
+
+	.nav-active {
+		transform: translateY(0%);
+	}
+
+	.nav-links {
+		opacity: 0;
+	}
+
+	.nav-links {
+		color: #fff;
+		padding: 1rem 0;
+		padding-left: 2rem;
+		a {
+			color: $grey;
+			font-size: 1.5rem;
+		}
+	}
+
+	.nav-links:nth-child(2) {
+		padding-left: 2rem;
+	}
+	.nav-links:nth-child(1) {
+		padding-top: 0;
+	}
+
+	.nav-active {
+		transform: translateY(0%);
+	}
+
+	.hero-title {
+		padding-top: 10vh;
+	}
+}
+
+@media screen and (min-width: 701px) {
+	.home-title {
+		font-size: 6rem;
+	}
+}

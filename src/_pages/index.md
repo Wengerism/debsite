@@ -1,8 +1,3 @@
 ---
-title: "My Boilerplate"
-layout: "_layouts/default.njk"
+layout: "_layouts/index.njk"
 ---
-
-# This my boilerplate
-
-Underwhelming is the new elegant.

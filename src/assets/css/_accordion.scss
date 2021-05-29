@@ -1,0 +1,30 @@
+.accordion {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	transition: transform 1.5s ease;
+	font-weight: 200;
+	padding: 0 0;
+	font-size: 1rem;
+}
+
+.accordion-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease-in-out;
+	padding: 0 1rem;
+	font-weight: 200;
+	font-size: 1rem;
+	background: #f4f4f7;
+}
+
+.active,
+.accordion:hover {
+	color: grey;
+}
+
+.accordion-content.is-open {
+	display: block;
+}

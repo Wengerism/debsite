@@ -1,0 +1,38 @@
+.footer {
+	background: #555663;
+	text-align: center;
+}
+
+.footer-container {
+	height: 180px;
+	padding-top: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	cursor: pointer;
+	color: #ccc;
+	font-weight: 100;
+
+	a {
+		text-decoration: none;
+		color: #ccc;
+	}
+}
+
+.emailphone,
+.finepprint {
+	font-size: 0.9rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.finepprint {
+	padding: 1rem 0;
+	font-size: 0.8rem;
+}
+
+.copyright {
+	font-size: 0.6rem;
+	color: $grey;
+	padding-bottom: 0.5rem;
+}

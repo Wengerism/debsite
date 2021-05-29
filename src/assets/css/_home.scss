@@ -1,0 +1,110 @@
+// $primary: #3d557a;
+// $darker: #2d3644;
+// $highlight: #f0f2f2;
+// $body: #fff;
+// $text: #303131;
+// $lightgrey: #dde0e0;
+// $grey: #b1b6b6;
+
+.hero {
+	background-image: linear-gradient(rgba(65, 85, 122, 0.7), rgba(0, 0, 0, 0.5)),
+		url("../../images/dana-devolk-JBqC2n_0zHM-unsplash.jpg");
+	// background-image: linear-gradient(#485551b3, rgba(0, 0, 0, 0.5)),
+	// 	url("../../images/dana-devolk-JBqC2n_0zHM-unsplash.jpg");
+	// background-image: linear-gradient(#8f9492b3, rgba(0, 0, 0, 0.5));
+	// overflow: hidden;
+	width: 100%;
+	background-size: cover;
+}
+
+.hero-inner {
+	height: 100%;
+	width: 100%;
+	height: 35vh;
+}
+
+.hero-title {
+	text-align: center;
+	padding-top: 5vh;
+	line-height: 50%;
+	color: #fff;
+	font-weight: 300;
+	span {
+		font-size: 2.7rem;
+		font-weight: 100;
+	}
+	span:nth-child(2) {
+		color: grey;
+		font-weight: 300;
+	}
+	p:nth-child(2) {
+		color: #ccc;
+		font-size: 0.9rem;
+	}
+}
+
+// Buttons
+.btn-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	margin-top: 1.25rem;
+	background: #a2a6a7;
+	line-height: 0;
+	border: 1px solid grey;
+	text-transform: uppercase;
+	box-shadow: none;
+	border: none;
+	text-transform: uppercase;
+	box-shadow: none;
+	p {
+		padding: 0.5rem 1rem;
+	}
+}
+.btn:hover {
+	background: #555663;
+	background: transparent;
+	border: 0.5px solid grey;
+}
+
+.booking {
+	text-decoration: none;
+	color: #fff;
+	margin: 0 auto;
+	font-size: 0.6rem;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+
+.content {
+	// padding: 2rem 2rem;
+	overflow: hidden;
+}
+
+.introduction,
+.how-it-works,
+.faq {
+	padding: 2rem 2rem;
+}
+
+.heading {
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+.text {
+	margin-bottom: 4rem;
+}
+
+.deb-image {
+	background-image: url("../../images/1J7A0682-debCrop.jpg");
+	background-image: url("../../images/debMaskBlueFlat.jpg");
+	background-image: url("../../images/debMaskB&W.jpg");
+
+	width: 100%;
+	background-size: cover;
+	height: 600px;
+}
