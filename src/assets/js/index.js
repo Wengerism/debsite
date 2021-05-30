@@ -6,7 +6,7 @@ navSlide();
 import {activeNav} from "./navigation";
 activeNav();
 
-import {accordian} from "./accordion";
+import {accordians} from "./accordion";
 accordion();
 
 // import {plah} from "./navigation";
@@ -15,6 +15,6 @@ accordion();
 // import {appearOnScroll} from "./animations";
 // appearOnScroll();
 
-// Array.from(document.getElementsByTagName("p")).forEach((p) => {
-// 	console.log(`p ${index}, startsWith('N')`, p, p.innerHTML.startsWith("N"));
-// });
+Array.from(document.getElementsByTagName("p")).forEach((p) => {
+	console.log(`p ${index}, startsWith('W')`, p, p.innerHTML.startsWith("W"));
+});
