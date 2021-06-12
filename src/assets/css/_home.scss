@@ -31,11 +31,11 @@ $primary: #35465f;
 	font-weight: 300;
 	span {
 		font-size: 2.7rem;
-		font-weight: 100;
+		font-weight: 200;
 	}
 	span:nth-child(2) {
 		color: grey;
-		font-weight: 300;
+		font-weight: 400;
 	}
 	p:nth-child(2) {
 		color: #ccc;
@@ -56,11 +56,12 @@ $primary: #35465f;
 
 	// background: $primary;
 	background: #929b9c;
+	background: transparent;
+	background: #509bc7;
+	background: #789fb6;
 	// background: #555663;
 	line-height: 0;
-	border: 1px solid grey;
-	text-transform: uppercase;
-	box-shadow: none;
+	// border: 1px solid grey;
 	border: none;
 	text-transform: uppercase;
 	box-shadow: none;
@@ -71,12 +72,15 @@ $primary: #35465f;
 }
 .btn:hover {
 	background: transparent;
-	// background: #df9a1b;
-	border: 0.5px solid grey;
+	background: #789fb6;
+	background: #509bc7;
+	// border: 0.5px solid grey;
 }
 
 .other-btn {
 	background: #555663;
+	background: #509bc7;
+	background: #789fb6;
 	margin-bottom: 5rem;
 	margin-top: 2rem;
 	border: none;
@@ -90,6 +94,7 @@ $primary: #35465f;
 	border: none;
 	background: $primary;
 	background: #80898a;
+	background: #509bc7;
 }
 
 .booking,
