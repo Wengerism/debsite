@@ -17,10 +17,10 @@ export const navSlide = () => {
 				link.style.animation = "";
 			} else {
 				setTimeout(function () {
-					link.style.animation = `navLinkFade 1s ease forwards ${
+					link.style.animation = `navLinkFade .5s ease forwards ${
 						index / 15 + 0.75
 					}s`;
-				}, 300);
+				}, 100);
 			}
 		});
 

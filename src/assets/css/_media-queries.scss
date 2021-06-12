@@ -77,10 +77,48 @@
 	.hero-title {
 		padding-top: 10vh;
 	}
+
+	.introduction {
+		display: block;
+	}
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: 100%;
+		padding: 0 2rem;
+	}
+
+	.image-grid {
+		grid-column: 1;
+		padding-left: 0;
+		margin: 3rem 5vw;
+	}
+
+	// .deb-image {
+	// 	margin: 0;
+	// 	width: 300px;
+	// 	height: 400px;
+	// }
 }
 
 @media screen and (min-width: 701px) {
 	.home-title {
 		font-size: 6rem;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.introduction,
+	.how-it-works,
+	.fa-questions,
+	.grid-container {
+		padding: 0 20vw;
+	}
+
+	.heading {
+		padding-top: 4rem;
+	}
+	.how-it-works {
+		margin-top: 6rem;
 	}
 }
