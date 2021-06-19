@@ -103,9 +103,27 @@
 	.home-title {
 		font-size: 6rem;
 	}
+
+	.hero-title {
+		span {
+			font-size: 3.7rem;
+		}
+		p:nth-child(2) {
+			font-size: 1.15rem;
+		}
+	}
 }
 
 @media screen and (min-width: 900px) {
+	.hero-title {
+		span {
+			font-size: 4.7rem;
+		}
+		p:nth-child(2) {
+			font-size: 1.3rem;
+		}
+	}
+
 	.introduction,
 	.how-it-works,
 	.fa-questions,
@@ -118,5 +136,16 @@
 	}
 	.how-it-works {
 		margin-top: 6rem;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.hero-title {
+		span {
+			font-size: 5.7rem;
+		}
+		p:nth-child(2) {
+			font-size: 1.5rem;
+		}
 	}
 }
