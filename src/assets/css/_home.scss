@@ -183,6 +183,7 @@ $primary: #35465f;
 	background-image: url("../../images/1J7A0682-debCrop.jpg");
 	background-image: url("../../images/debMaskBlueFlat.jpg");
 	background-image: url("../../images/debMaskB&W.jpg");
+	background-image: url("../../images/debMaskGreyHealcopy.jpg");
 
 	// width: 100%;
 	width: 450px;
@@ -194,4 +195,15 @@ $primary: #35465f;
 
 .learn-more {
 	text-align: center;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding-top: 1rem;
+	display: block;
+}
+
+.learn-more:hover {
+	color: orange;
 }
