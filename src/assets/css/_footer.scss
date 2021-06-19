@@ -9,16 +9,35 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	color: #ccc;
-	font-weight: 100;
+	color: #f8f5f5;
+	font-weight: 200;
 
 	a {
 		text-decoration: none;
-		color: #ccc;
+		color: #f8f5f5;
 		cursor: pointer;
 	}
 	a:hover {
 		color: orange;
+	}
+}
+
+.footer-title {
+	line-height: 20%;
+	color: #fff;
+	font-weight: 300;
+	padding-bottom: 1rem;
+	span {
+		font-size: 2.4rem;
+		font-weight: 200;
+	}
+	span:nth-child(2) {
+		color: grey;
+		font-weight: 300;
+	}
+	p:nth-child(2) {
+		color: #ccc;
+		font-size: 0.7rem;
 	}
 }
 
@@ -35,7 +54,7 @@
 }
 
 .copyright {
-	font-size: 0.6rem;
+	font-size: 0.7rem;
 	color: $grey;
 	padding-bottom: 0.5rem;
 }
