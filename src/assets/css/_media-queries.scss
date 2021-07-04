@@ -18,18 +18,22 @@
 		padding-top: 12vh;
 	}
 
-	// LOGO
 	.logo {
-		padding-top: 0;
-		padding-bottom: 2rem;
-		li:nth-child(2) {
-			font-size: 0.7rem;
-		}
-		a {
-			text-decoration: none;
-			color: #ccc;
-		}
+		opacity: 0;
 	}
+
+	// LOGO
+	// .logo {
+	// 	padding-top: 0;
+	// 	padding-bottom: 2rem;
+	// 	li:nth-child(2) {
+	// 		font-size: 0.7rem;
+	// 	}
+	// 	a {
+	// 		text-decoration: none;
+	// 		color: #ccc;
+	// 	}
+	// }
 
 	.deb-logo,
 	.cooper-logo {
@@ -85,7 +89,7 @@
 	.grid-container {
 		display: grid;
 		grid-template-columns: 100%;
-		padding: 0 2rem;
+		padding: 0;
 	}
 
 	.image-grid {
@@ -96,6 +100,20 @@
 
 	.heading {
 		font-size: 2rem;
+	}
+
+	.faq {
+		padding: 0;
+		padding-top: 2rem;
+	}
+
+	// .accoridon {
+	// 	p {
+	// 		padding-right: 2rem;
+	// 	}
+	// }
+	.plah {
+		color: red;
 	}
 }
 
@@ -118,6 +136,28 @@
 	.logo {
 		opacity: 0;
 	}
+	.about-deb {
+		background: orange;
+		padding-bottom: 4rem;
+	}
+
+	.introduction,
+	.how-it-works {
+		p {
+			padding: 0 4rem;
+		}
+	}
+
+	.grid-container {
+		padding: 0 4rem;
+	}
+
+	.accordion,
+	.accordion-content {
+		p {
+			padding: 0 6rem;
+		}
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -134,18 +174,39 @@
 		padding-left: 20vw;
 	}
 
-	.introduction,
-	.how-it-works,
-	.fa-questions,
 	.grid-container {
 		padding: 0 20vw;
+	}
+
+	.introduction,
+	.how-it-works {
+		p {
+			padding: 0 17vw;
+		}
+	}
+
+	.faq {
+		// padding: 0 15vw;
+	}
+
+	.accordion,
+	.accordion-content {
+		p {
+			padding: 0 20vw;
+		}
+	}
+
+	.about-deb {
+		padding: 0;
 	}
 
 	.heading {
 		padding-top: 4rem;
 	}
-	.how-it-works {
-		margin-top: 6rem;
+
+	.about-deb {
+		background: turquoise;
+		padding-bottom: 4rem;
 	}
 }
 

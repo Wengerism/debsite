@@ -20,13 +20,13 @@ export const navSlide = () => {
 					link.style.animation = `navLinkFade .5s ease forwards ${
 						index / 15 + 0.75
 					}s`;
-				}, 100);
+				}, 50);
 			}
 		});
 
-		setTimeout(function () {
-			link.style.animation = `navLinkFade .7s ease forwards ${index / 15 + 0.75}s`;
-		}, 300);
+		// setTimeout(function () {
+		// 	link.style.animation = `navLinkFade .7s ease forwards ${index / 15 + 0.75}s`;
+		// }, 50);
 
 		// Burger animation
 		burger.classList.toggle("toggler");

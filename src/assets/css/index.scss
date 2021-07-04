@@ -29,9 +29,10 @@ img {
 	padding: 0;
 }
 
+@import "accordion";
 @import "footer";
 
 @import "navigation";
 @import "home";
+
 @import "media-queries";
-@import "accordion";

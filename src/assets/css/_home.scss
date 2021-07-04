@@ -20,7 +20,7 @@ $primary: #35465f;
 .hero-inner {
 	height: 100%;
 	width: 100%;
-	height: 35vh;
+	height: 45vh;
 }
 
 .hero-title {
@@ -44,18 +44,26 @@ $primary: #35465f;
 }
 
 // Buttons
+.btn-container-hero,
 .btn-container {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	border: none;
+	box-shadow: none;
+}
+
+.btn-container {
+	padding-bottom: 4rem;
 }
 
 .btn {
 	margin-top: 1.25rem;
-	background: #a2a6a7;
-
-	// background: $primary;
-	background: #929b9c;
+	font-size: 0.7rem;
+	letter-spacing: 4px;
+	background: #789fb6;
+	// background: #929b9c;
+	// background: pink;
 	// background: transparent;
 	// background: #509bc7;
 	// background: #789fb6;
@@ -63,12 +71,13 @@ $primary: #35465f;
 	line-height: 0;
 	// border: 1px solid grey;
 	border: none;
-	text-transform: uppercase;
 	box-shadow: none;
-	p {
-		padding: 0.5rem 1rem;
-		padding: 0.8rem 1.5rem;
-	}
+	text-transform: uppercase;
+
+	// p {
+	// 	padding: 0.5rem 1rem;
+	// 	padding: 0.8rem 1.5rem;
+	// }
 }
 .btn:hover {
 	background: transparent;
@@ -76,6 +85,7 @@ $primary: #35465f;
 	background: #509bc7;
 	background: #789fb6;
 	// border: 0.5px solid grey;
+	box-shadow: none;
 }
 
 .other-btn {
@@ -122,15 +132,29 @@ $primary: #35465f;
 
 .introduction,
 .how-it-works,
-.fa-questions,
 .about-deb {
 	padding: 0 2rem;
 	padding-top: 2rem;
 }
 
-.fa-questions {
+.faq {
 	padding: 0;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	// padding-right: 2rem;
 }
+
+.faq-heading {
+	padding-bottom: 0.5rem;
+}
+
+.about-deb {
+	padding-bottom: 1rem;
+}
+
+// .fa-questions {
+// 	padding: 0;
+// }
 
 .how-it-works,
 .introduction {
@@ -176,7 +200,7 @@ $primary: #35465f;
 }
 
 .text {
-	padding-bottom: 2rem;
+	padding-bottom: 1rem;
 }
 
 .deb-image {
@@ -184,6 +208,7 @@ $primary: #35465f;
 	background-image: url("../../images/debMaskBlueFlat.jpg");
 	background-image: url("../../images/debMaskB&W.jpg");
 	background-image: url("../../images/debMaskGreyHealcopy.jpg");
+	// background-image: url("../../images/debMaskB&W-Recovered.jpg");
 
 	// width: 100%;
 	width: 450px;
@@ -206,4 +231,13 @@ $primary: #35465f;
 
 .learn-more:hover {
 	color: orange;
+	color: #509bc7;
+}
+
+.logo {
+	background-image: url("../../images/logoBig.jpg");
+	width: 120px;
+	// width: 100%;
+	background-size: cover;
+	height: 30px;
 }
