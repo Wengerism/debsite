@@ -19,7 +19,9 @@
 	}
 
 	.logo {
-		opacity: 0;
+		// padding-left: 16rem;
+		align-self: center;
+		padding-bottom: 2rem;
 	}
 
 	// LOGO
@@ -80,6 +82,11 @@
 
 	.hero-title {
 		padding-top: 10vh;
+		line-height: 45%;
+	}
+
+	.btn-container-hero {
+		padding-top: 2rem;
 	}
 
 	.introduction {
@@ -106,22 +113,12 @@
 		padding: 0;
 		padding-top: 2rem;
 	}
-
-	// .accoridon {
-	// 	p {
-	// 		padding-right: 2rem;
-	// 	}
-	// }
-	.plah {
-		color: red;
-	}
 }
 
 @media screen and (min-width: 701px) {
-	.home-title {
-		font-size: 6rem;
-	}
-
+	// body {
+	// 	background: green;
+	// }
 	.hero-title {
 		span {
 			font-size: 3.7rem;
@@ -130,11 +127,11 @@
 			font-size: 1rem;
 		}
 	}
-}
-
-@media screen and (min-width: 801px) {
-	.logo {
-		opacity: 0;
+	.deb-image {
+		width: 100%;
+		background-size: cover;
+		height: 550px;
+		// margin: 2rem;
 	}
 	.about-deb {
 		// background: orange;
@@ -160,41 +157,37 @@
 	}
 }
 
-@media screen and (min-width: 900px) {
-	.hero-title {
-		span {
-			font-size: 4.7rem;
-		}
-		p:nth-child(2) {
-			font-size: 1.1rem;
-		}
-	}
+@media screen and (min-width: 801px) {
+	// body {
+	// 	background: green;
+	// }
+}
 
+@media screen and (min-width: 900px) {
+	// body {
+	// 	background: lightblue;
+	// }
 	.nav-links:nth-child(2) {
 		padding-left: 20vw;
 	}
 
-	.grid-container {
-		padding: 0 20vw;
-	}
+	// .grid-container {
+	// 	padding: 0 20vw;
+	// }
 
-	.introduction,
-	.how-it-works {
-		p {
-			padding: 0 17vw;
-		}
-	}
+	// .introduction,
+	// .how-it-works {
+	// 	p {
+	// 		padding: 0 17vw;
+	// 	}
+	// }
 
-	.faq {
-		// padding: 0 15vw;
-	}
-
-	.accordion,
-	.accordion-content {
-		p {
-			padding: 0 20vw;
-		}
-	}
+	// .accordion,
+	// .accordion-content {
+	// 	p {
+	// 		padding: 0 20vw;
+	// 	}
+	// }
 
 	.about-deb {
 		padding: 0;
@@ -205,18 +198,22 @@
 	}
 
 	.about-deb {
-		// background: turquoise;
+		// background: #40e0d0;
 		padding-bottom: 4rem;
 	}
 }
 
 @media screen and (min-width: 1400px) {
+	.hero-inner {
+		height: 50vh;
+	}
 	.hero-title {
 		span {
-			font-size: 5.7rem;
+			font-size: 4.7rem;
+			// color: yellow;
 		}
 		p:nth-child(2) {
-			font-size: 1.2rem;
+			font-size: 1.1rem;
 		}
 	}
 	.nav-links:nth-child(2) {

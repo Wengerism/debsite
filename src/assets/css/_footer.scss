@@ -1,5 +1,11 @@
 .footer {
-	background: #555663;
+	background: #424e5e;
+	background: #304350;
+	background: #334257;
+	background: #43474e;
+	background: #476072;
+	background: #334257;
+	background: #4f5b61;
 	text-align: center;
 }
 
@@ -19,38 +25,44 @@
 	}
 	a:hover {
 		color: orange;
+		color: #509bc7;
 	}
 }
 
 .footer-title {
 	line-height: 20%;
 	color: #fff;
+	color: #92a6b1;
 	font-weight: 300;
 	padding-bottom: 1rem;
 	span {
-		font-size: 2.4rem;
-		font-weight: 200;
+		font-size: 1.8rem;
+		font-weight: 300;
 	}
 	span:nth-child(2) {
 		color: grey;
-		font-weight: 300;
+		color: #7c8d97;
+		color: #92a6b1;
+		color: #fff;
+		font-weight: 100;
 	}
 	p:nth-child(2) {
 		color: #ccc;
-		font-size: 0.7rem;
+		font-size: 0.65rem;
 	}
 }
 
 .emailphone,
 .finepprint {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	display: flex;
 	flex-direction: column;
+	letter-spacing: 0.5px;
 }
 
 .finepprint {
 	padding: 1rem 0;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 }
 
 .copyright {
