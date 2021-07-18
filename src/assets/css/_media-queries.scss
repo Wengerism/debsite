@@ -85,6 +85,14 @@
 		line-height: 45%;
 	}
 
+	.hero-title {
+		p:nth-child(2) {
+			font-size: 0.95rem;
+			letter-spacing: 0.5px;
+			line-height: 100%;
+		}
+	}
+
 	.btn-container-hero {
 		padding-top: 2rem;
 	}
@@ -112,6 +120,11 @@
 	.faq {
 		padding: 0;
 		padding-top: 2rem;
+	}
+
+	.text,
+	.text-grid {
+		font-size: 1.2rem;
 	}
 }
 
