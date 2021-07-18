@@ -1,4 +1,8 @@
 @media screen and (max-width: 800px) {
+	.hero-inner {
+		height: 20rem;
+	}
+
 	.burger {
 		visibility: visible;
 	}
@@ -87,9 +91,10 @@
 
 	.hero-title {
 		p:nth-child(2) {
-			font-size: 0.95rem;
+			font-size: 1rem;
 			letter-spacing: 0.5px;
 			line-height: 100%;
+			padding: 0 10vw;
 		}
 	}
 
