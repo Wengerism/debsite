@@ -102,7 +102,7 @@
 	.image-grid {
 		grid-column: 1;
 		padding-left: 0;
-		margin: 3rem 5vw;
+		margin: 3rem 0;
 	}
 
 	.heading {
@@ -130,11 +130,10 @@
 	.deb-image {
 		width: 100%;
 		background-size: cover;
-		height: 550px;
-		// margin: 2rem;
+		height: 750px;
 	}
+
 	.about-deb {
-		// background: orange;
 		padding-bottom: 4rem;
 	}
 
@@ -159,8 +158,12 @@
 
 @media screen and (min-width: 801px) {
 	// body {
-	// 	background: green;
+	// 	background: lightblue;
 	// }
+
+	.deb-image {
+		height: 450px;
+	}
 }
 
 @media screen and (min-width: 900px) {
@@ -171,28 +174,6 @@
 		padding-left: 20vw;
 	}
 
-	// .grid-container {
-	// 	padding: 0 20vw;
-	// }
-
-	// .introduction,
-	// .how-it-works {
-	// 	p {
-	// 		padding: 0 17vw;
-	// 	}
-	// }
-
-	// .accordion,
-	// .accordion-content {
-	// 	p {
-	// 		padding: 0 20vw;
-	// 	}
-	// }
-
-	.about-deb {
-		padding: 0;
-	}
-
 	.heading {
 		padding-top: 4rem;
 	}
@@ -200,6 +181,28 @@
 	.about-deb {
 		// background: #40e0d0;
 		padding-bottom: 4rem;
+	}
+
+	.deb-image {
+		height: 500px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.introduction,
+	.how-it-works,
+	.faq {
+		p {
+			padding: 0 14rem;
+			padding: 0 15vw;
+		}
+	}
+
+	.about-deb {
+		padding-right: 8rem;
+		padding-left: 8rem;
+		padding-right: 15vw;
+		padding-left: 13vw;
 	}
 }
 
