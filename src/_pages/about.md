@@ -1,3 +1,3 @@
 ---
-layout: "_layouts/index.njk"
+layout: "_layouts/about.njk"
 ---

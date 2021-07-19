@@ -142,7 +142,8 @@ $btn: #76b1c9;
 
 .introduction,
 .how-it-works,
-.about-deb {
+.about-deb,
+.external-links {
 	padding: 0 2rem;
 	padding-top: 2rem;
 }
@@ -202,6 +203,7 @@ $btn: #76b1c9;
 .image-grid {
 	grid-column: 2 / span 1;
 	padding-left: 1rem;
+	padding-top: 1rem;
 }
 
 .heading {
@@ -236,10 +238,68 @@ $btn: #76b1c9;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding-top: 1rem;
-	display: block;
+	// display: block;
 }
 
-.learn-more:hover {
+.external-links,
+.internal-links {
+	display: flex;
+	flex-direction: column;
+	// text-transform: lowercase;
+	letter-spacing: 0;
+	padding-top: 0;
+
+	cursor: pointer;
+	padding-left: 0;
+	a:nth-child(1) {
+		padding-bottom: 1rem;
+	}
+	a {
+		text-decoration: none;
+		color: orange;
+	}
+}
+
+.internal-links {
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 1rem;
+
+	a {
+		color: grey;
+		font-weight: 400;
+		letter-spacing: 0.5px;
+	}
+	a:hover {
+		color: #509bc7;
+	}
+}
+
+.policy-link {
+	color: $text;
+	padding: 0;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.learn-more:hover,
+.external-links:hover,
+.policy-link:hover {
 	color: orange;
 	color: #509bc7;
+}
+
+.statement-text {
+	p {
+		font-weight: 500;
+	}
+}
+
+.sub-heading {
+	font-size: 1.3rem;
+	padding-top: 0.5rem;
+}
+
+.privacy-text {
+	padding-bottom: 4rem;
 }

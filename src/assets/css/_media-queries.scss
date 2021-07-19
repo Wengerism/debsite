@@ -66,7 +66,7 @@
 	.nav-links {
 		color: #fff;
 		padding: 1rem 0;
-		padding-left: 2rem;
+		padding-left: 20vw;
 		a {
 			color: $grey;
 			font-size: 1.5rem;
@@ -74,7 +74,7 @@
 	}
 
 	.nav-links:nth-child(2) {
-		padding-left: 2rem;
+		padding-left: 20vw;
 	}
 	.nav-links:nth-child(1) {
 		padding-top: 0;
@@ -128,8 +128,9 @@
 	}
 
 	.text,
-	.text-grid {
-		font-size: 1.2rem;
+	.text-grid,
+	.text-grid2 {
+		font-size: 1.1rem;
 	}
 }
 
@@ -156,10 +157,15 @@
 	}
 
 	.introduction,
-	.how-it-works {
+	.how-it-works,
+	.external-links {
 		p {
 			padding: 0 4rem;
 		}
+	}
+
+	.external-links {
+		padding: 0 4rem;
 	}
 
 	.grid-container {
@@ -211,7 +217,6 @@
 	.how-it-works,
 	.faq {
 		p {
-			padding: 0 14rem;
 			padding: 0 15vw;
 		}
 	}
@@ -221,6 +226,10 @@
 		padding-left: 8rem;
 		padding-right: 15vw;
 		padding-left: 13vw;
+	}
+
+	.external-links {
+		padding: 0 15vw;
 	}
 }
 
