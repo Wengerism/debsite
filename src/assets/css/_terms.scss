@@ -1,0 +1,17 @@
+.email-link {
+	text-decoration: none;
+	color: orange;
+}
+
+.email-link:hover {
+	color: #509bc7;
+}
+
+.terms-sub-section {
+	padding-top: 0.5rem;
+	font-weight: 400;
+	p:nth-child(1) {
+		font-weight: 300;
+		font-size: 1.2rem;
+	}
+}
