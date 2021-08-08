@@ -120,6 +120,19 @@ $btn: #76b1c9;
 	// background: #789fb6;
 }
 
+.prescription {
+	background: #7c8d97;
+	a {
+		text-decoration: none;
+		// margin: 0 auto;
+		font-size: 0.9rem;
+		letter-spacing: 2.5px;
+		font-weight: 400;
+		color: #fff;
+		padding: 4rem 2rem;
+	}
+}
+
 .booking,
 .other-booking {
 	text-decoration: none;
@@ -272,6 +285,7 @@ $btn: #76b1c9;
 	}
 	a:hover {
 		color: #509bc7;
+		color: orange;
 	}
 }
 

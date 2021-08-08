@@ -129,7 +129,9 @@
 
 	.text,
 	.text-grid,
-	.text-grid2 {
+	.text-grid2,
+	.accordion,
+	.accordion-content {
 		font-size: 1.1rem;
 	}
 }
@@ -214,10 +216,15 @@
 
 @media screen and (min-width: 1200px) {
 	.introduction,
-	.how-it-works,
-	.faq {
+	.how-it-works {
 		p {
 			padding: 0 15vw;
+		}
+	}
+
+	.faq {
+		p {
+			padding: 0 17vw;
 		}
 	}
 
