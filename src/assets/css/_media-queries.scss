@@ -23,23 +23,9 @@
 	}
 
 	.logo {
-		// padding-left: 16rem;
 		align-self: center;
 		padding-bottom: 2rem;
 	}
-
-	// LOGO
-	// .logo {
-	// 	padding-top: 0;
-	// 	padding-bottom: 2rem;
-	// 	li:nth-child(2) {
-	// 		font-size: 0.7rem;
-	// 	}
-	// 	a {
-	// 		text-decoration: none;
-	// 		color: #ccc;
-	// 	}
-	// }
 
 	.deb-logo,
 	.cooper-logo {
@@ -159,15 +145,10 @@
 	}
 
 	.introduction,
-	.how-it-works,
-	.external-links {
+	.how-it-works {
 		p {
 			padding: 0 4rem;
 		}
-	}
-
-	.external-links {
-		padding: 0 4rem;
 	}
 
 	.grid-container {
@@ -205,20 +186,31 @@
 	}
 
 	.about-deb {
-		// background: #40e0d0;
 		padding-bottom: 4rem;
 	}
 
 	.deb-image {
 		height: 500px;
 	}
+	.contact-container {
+		p {
+			padding: 0 10vw;
+		}
+	}
 }
 
 @media screen and (min-width: 1200px) {
 	.introduction,
-	.how-it-works {
+	.how-it-works,
+	.container {
 		p {
 			padding: 0 15vw;
+		}
+	}
+
+	.contact-container {
+		p {
+			padding: 0 10vw;
 		}
 	}
 
@@ -247,7 +239,6 @@
 	.hero-title {
 		span {
 			font-size: 4.7rem;
-			// color: yellow;
 		}
 		p:nth-child(2) {
 			font-size: 1.1rem;

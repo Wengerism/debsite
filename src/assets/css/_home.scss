@@ -1,16 +1,8 @@
 $primary: #35465f;
-// $darker: #2d3644;
-// $highlight: #f0f2f2;
-// $body: #fff;
-// $text: #303131;
-// $lightgrey: #dde0e0;
-// $grey: #b1b6b6;
-$btn: #7c8d97;
-$btn: #76b1c9;
 
 .hero {
 	background-image: linear-gradient(rgba(65, 85, 122, 0.7), rgba(0, 0, 0, 0.5)),
-		url("../../images/dana-devolk-JBqC2n_0zHM-unsplash.jpg");
+		url("../../images/banner.jpg");
 	width: 100%;
 	background-size: cover;
 }
@@ -26,18 +18,13 @@ $btn: #76b1c9;
 	padding-top: 5vh;
 	line-height: 75%;
 	color: #92a6b1;
-	// color: #fff;
 	font-weight: 300;
 	span {
 		font-size: 2.8rem;
 		font-weight: 300;
 	}
 	span:nth-child(2) {
-		color: grey;
-		// color: #92a6b1;
 		color: #fff;
-		// color: #708a99;
-		// color: orange;
 		font-weight: 100;
 	}
 	p:nth-child(2) {
@@ -49,7 +36,6 @@ $btn: #76b1c9;
 // Buttons
 .btn-container-hero,
 .btn-container {
-	// width: 100%;
 	display: flex;
 	justify-content: center;
 	border: unset;
@@ -62,50 +48,14 @@ $btn: #76b1c9;
 
 .btn {
 	margin-top: 1.25rem;
-	// font-size: 0.7rem;
 	letter-spacing: 3px;
 	background: transparent;
-	// background: #929b9c;
-	// background: pink;
-	// background: transparent;
-	// background: #509bc7;
-	// background: #789fb6;
-	// background: #555663;
-	// line-height: 0;
-	// border: 1px solid grey;
 	border: unset;
 	box-shadow: unset;
 	text-transform: uppercase;
-
-	// p {
-	// 	padding: 0.5rem 1rem;
-	// 	padding: 0.8rem 1.5rem;
-	// }
 }
 .btn:hover {
-	// background: transparent;
-	// background: #789fb6;
-	// background: #509bc7;
-	// background: #789fb6;
-	// background: #7c8d97;
-	// background: #929b9c;
-	// border: 0.5px solid grey;
 	box-shadow: none;
-}
-
-.other-btn {
-	// background: #555663;
-	// background: #509bc7;
-	// background: #789fb6;
-	// background: #929b9c;
-	// background: transparent;
-	margin-bottom: 5rem;
-	margin-top: 2rem;
-	border: none;
-	p {
-		padding: 1.2rem 2rem;
-		padding: 0.8rem 1.5rem;
-	}
 }
 
 .faq-btn-container {
@@ -114,30 +64,38 @@ $btn: #76b1c9;
 
 .other-btn:hover {
 	border: none;
-	// background: $primary;
-	// background: #80898a;
-	// background: #509bc7;
-	// background: #789fb6;
 }
 
-.prescription {
-	background: #7c8d97;
+.more-btn {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	background: transparent;
+	box-shadow: none;
+	border: unset;
+	border: 0.5px solid $grey;
+
 	a {
 		text-decoration: none;
-		// margin: 0 auto;
-		font-size: 0.9rem;
-		letter-spacing: 2.5px;
-		font-weight: 400;
+		letter-spacing: 1px;
+		font-size: 1rem;
+		color: $text;
+		padding: 0.8rem 1rem;
+		font-weight: 100;
+	}
+}
+
+.more-btn:hover {
+	background: $btn;
+	border: unset;
+	a {
 		color: #fff;
-		padding: 4rem 2rem;
 	}
 }
 
 .booking,
 .other-booking {
 	text-decoration: none;
-	// color: #fff;
-	// color: orange;
 	margin: 0 auto;
 	font-size: 0.9rem;
 	letter-spacing: 2.5px;
@@ -149,23 +107,22 @@ $btn: #76b1c9;
 }
 
 .content {
-	// padding: 2rem 2rem;
 	overflow: hidden;
 }
 
 .introduction,
 .how-it-works,
 .about-deb,
-.external-links {
+.container {
 	padding: 0 2rem;
 	padding-top: 2rem;
+	padding-bottom: 3rem;
 }
 
 .faq {
 	padding: 0;
 	padding-top: 2rem;
 	padding-bottom: 1rem;
-	// padding-right: 2rem;
 }
 
 .faq-heading {
@@ -176,40 +133,26 @@ $btn: #76b1c9;
 	padding-bottom: 1rem;
 }
 
-// .fa-questions {
-// 	padding: 0;
-// }
-
 .how-it-works,
 .introduction {
 	background: #f1f0f0;
 }
-
-// .introduction {
-// 	display: grid;
-// 	grid-template-columns: 0 45vw 45vw 0;
-// 	grid-template-columns: 45vw 45vw;
-// }
 
 .grid-container {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	grid-template-rows: auto auto;
 	padding: 0 2rem;
-	// grid-column: 1 / span 1;
-	// padding-top: 5rem;
 }
 
 .text-grid {
 	grid-column: 1 / span 2;
-
 	padding-right: 1rem;
 }
 
 .text-grid2 {
 	grid-column: 1 / span 1;
 	grid-row: 2;
-
 	padding-right: 1rem;
 }
 
@@ -233,74 +176,38 @@ $btn: #76b1c9;
 	background-image: url("../../images/debMaskBlueFlat.jpg");
 	background-image: url("../../images/debMaskB&W.jpg");
 	background-image: url("../../images/debMaskGreyHealcopy.jpg");
-	// background-image: url("../../images/debMaskB&W-Recovered.jpg");
-
-	// width: 100%;
 	width: 450px;
 	width: 100%;
 	background-size: cover;
 	height: 450px;
-	// margin: 2rem;
 }
 
-.learn-more {
-	text-align: center;
-	cursor: pointer;
-	font-weight: 400;
-	font-size: 0.9rem;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	padding-top: 1rem;
-	// display: block;
-}
-
-.external-links,
-.internal-links {
+.external-links {
+	width: 400px;
 	display: flex;
 	flex-direction: column;
-	// text-transform: lowercase;
-	letter-spacing: 0;
-	padding-top: 0;
-
-	cursor: pointer;
-	padding-left: 0;
 	a:nth-child(1) {
 		padding-bottom: 1rem;
 	}
 	a {
 		text-decoration: none;
 		color: orange;
-	}
-}
-
-.internal-links {
-	text-align: center;
-	text-transform: uppercase;
-	padding-top: 1rem;
-
-	a {
-		color: grey;
-		font-weight: 400;
-		letter-spacing: 0.5px;
+		cursor: pointer;
 	}
 	a:hover {
-		color: #509bc7;
-		color: orange;
+		color: $btn;
 	}
 }
 
 .policy-link {
-	color: $text;
+	color: orange;
 	padding: 0;
 	text-decoration: none;
 	font-weight: 400;
 }
 
-.learn-more:hover,
-.external-links:hover,
 .policy-link:hover {
-	color: orange;
-	color: #509bc7;
+	color: $btn;
 }
 
 .statement-text {

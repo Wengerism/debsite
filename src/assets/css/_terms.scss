@@ -5,6 +5,7 @@
 
 .email-link:hover {
 	color: #509bc7;
+	color: #7c8d97;
 }
 
 .terms-sub-section {
@@ -13,5 +14,12 @@
 	p:nth-child(1) {
 		font-weight: 300;
 		font-size: 1.2rem;
+	}
+}
+
+.link {
+	a {
+		text-decoration: none;
+		color: orange;
 	}
 }

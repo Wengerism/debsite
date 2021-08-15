@@ -3,19 +3,11 @@ $darker: #2d3644;
 $text: #5d5f5f;
 $menu: #242323;
 
-.deblogo {
-	background-image: url("../../images/moon-logo.png");
-	width: 75px;
-	background-size: cover;
-	height: 40px;
-	// padding: 0.25rem;
-}
 .deb-logo-name {
-	background-image: url("../../images/deb-logo-name2.png");
+	background-image: url("../../images/logo.png");
 	width: 120px;
 	background-size: cover;
 	height: 60px;
-	// padding: 0.25rem;
 }
 
 .logo {
@@ -34,11 +26,11 @@ $menu: #242323;
 .nav-links:nth-child(1) {
 	padding-top: 0.75rem;
 }
-.nav-links:nth-child(6) {
-	a {
-		color: #fff;
-	}
-}
+// .nav-links:nth-child(6) {
+// 	a {
+// 		color: #fff;
+// 	}
+// }
 
 .nav-links {
 	list-style: none;
@@ -52,9 +44,6 @@ $menu: #242323;
 	}
 
 	a:hover {
-		color: orange;
-		color: turquoise;
-		color: #509bc7;
 		color: #fff;
 	}
 }
@@ -65,35 +54,6 @@ $menu: #242323;
 
 .line2 {
 	opacity: 0;
-}
-
-// LOGO
-
-.other-logo {
-	// padding-bottom: 1rem;
-	// padding-top: 1.25rem;
-	list-style: none;
-	line-height: 0%;
-	text-align: center;
-	font-size: 1.5rem;
-
-	li:nth-child(2) {
-		font-size: 0.5rem;
-		text-align: center;
-	}
-	a {
-		text-decoration: none;
-		color: #ccc;
-	}
-}
-
-.deb-logo {
-	color: #fff;
-	font-weight: 100;
-}
-.cooper-logo {
-	color: #808080;
-	font-weight: 300;
 }
 
 @keyframes navLinkFade {
@@ -107,9 +67,8 @@ $menu: #242323;
 	}
 }
 
-// BELOW FROM UNCLUTTERED SITE
+// HAMBURGER MENU
 .toggler .line1 {
-	// transform: rotate(135deg) translate(-5px, 6px);
 	transform: rotate(315deg) translate(-5.5px, 4px);
 }
 
